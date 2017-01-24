@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Codesketch</title>
+        <meta name="description" content="Sketches with code by Georgi Nikoloff">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta property="og:url" content="http://codesketch.gnikoloff.com">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="CodeSketch">
+        <meta property="og:description" content="Sketches with code by Georgi Nikoloff">
+        <meta property="og:image" content="http://codesketch.gnikoloff.com/public/images/social/codesketch-social.png">
+        <meta property="og:site_name" content="CodeSketch">
+
+        <meta name="twitter:card" content="photo">
+        <meta name="twitter:site" content="@georgiNikoloff">
+        <meta name="twitter:title" content="CodeSketch">
+        <meta name="twitter:image" content="http://codesketch.gnikoloff.com/public/images/social/codesketch-social.png">
+        <meta name="twitter:url" content="http://codesketch.gnikoloff.com">
+
+        <link rel="apple-touch-icon-precomposed" sizes="57x57"   href="public/images/social/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="public/images/social/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="72x72"   href="public/images/social/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="public/images/social/apple-touch-icon-144x144.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="60x60"   href="public/images/social/apple-touch-icon-60x60.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="public/images/social/apple-touch-icon-120x120.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="76x76"   href="public/images/social/apple-touch-icon-76x76.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="public/images/social/apple-touch-icon-152x152.png" />
+        <link rel="icon" type="image/png" href="public/images/social/favicon-196x196.png" sizes="196x196" />
+        <link rel="icon" type="image/png" href="public/images/social/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/png" href="public/images/social/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="public/images/social/favicon-16x16.png" sizes="16x16" />
+        <link rel="icon" type="image/png" href="public/images/social/favicon-128.png" sizes="128x128" />
+        <meta name="application-name" content="&nbsp;"/>
+        <meta name="msapplication-TileColor"         content="#FFFFFF" />
+        <meta name="msapplication-TileImage"         content="public/images/social/mstile-144x144.png" />
+        <meta name="msapplication-square70x70logo"   content="public/images/social/mstile-70x70.png" />
+        <meta name="msapplication-square150x150logo" content="public/images/social/mstile-150x150.png" />
+        <meta name="msapplication-wide310x150logo"   content="public/images/social/mstile-310x150.png" />
+        <meta name="msapplication-square310x310logo" content="public/images/social/mstile-310x310.png" />
+
+        
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+    </head>
+    <body>
+        
+        <div id="app" style="display: none;">
+            <div id="unsupport">
+                <div class="bulletin">
+                    This site with its experience is built with up-to-date web technologies such as WebGL, HTML5, CSS3.0, etc. <br>
+                    Please download latest modern browser <span class="bold"><a href="https://www.google.com/chrome/browser/desktop/index.html">Google Chrome</a></span>, or <span class="bold"><a href="http://www.firefox.com/">Firefox</a></span><br>
+                    -<br>
+                    Georgi Nikoloff
+                </div>
+            </div>
+            <div id="cursor" style="background-image: url('public/images/hand-cursor.png')"></div>
+            <div class="background-canvas"></div>
+            
+            <div class="homepage noselect">
+                <div class="sketches-list"></div>
+            </div>
+            <header class="app-header">
+                    <div class="logo-container">
+                        <h1>CodeSketch</h1>
+                        <p>CodeSketch is a collection of Javascript code on CodePen since August 2015. <a href="http://gnikoloff.com">By Georgi Nikoloff</a>.</p>
+                    </div>
+                </header>
+            <div class="singlepage">
+                <a href="#" class="back-link">
+                    <svg x="0px" y="0px" viewBox="-281 404.9 32 32" style="enable-background:new -281 404.9 32 32;">
+                        <g id="Cancel">
+                            <path class="st0" d="M-265,404.9c-8.8,0-16,7.2-16,16c0,8.8,7.2,16,16,16c8.8,0,16-7.2,16-16C-249,412.1-256.2,404.9-265,404.9z
+                                M-265,434.9c-7.7,0-14-6.3-14-14c0-7.7,6.3-14,14-14s14,6.3,14,14C-251,428.6-257.3,434.9-265,434.9z"/>
+                            <path class="st0" d="M-258.3,426.2l-5.3-5.3l5.2-5.2c0.4-0.4,0.4-1,0-1.4c-0.4-0.4-1-0.4-1.4,0l-5.2,5.2l-5.3-5.3
+                                c-0.4-0.4-1-0.4-1.4,0c-0.4,0.4-0.4,1,0,1.4l5.3,5.3l-5.3,5.3c-0.4,0.4-0.4,1,0,1.4c0.4,0.4,1,0.4,1.4,0l5.3-5.3l5.3,5.3
+                                c0.4,0.4,1,0.4,1.4,0C-257.9,427.2-257.9,426.6-258.3,426.2z"/>
+                        </g>
+                    </svg>
+                </a>
+                <div class="iframe-container"></div>
+            </div>
+
+            <div class="page-switcher"></div>
+
+        </div>       
+
+        <script id="homepage-template" type="text/template">
+            <ul class="sketches">
+                <% _.each(works, function(w, i) { %>
+                    <li class="single-sketch" id="<%= w.get('Key') %>" style="background-image: url('public/images/loader.gif')">
+                        <div class="sketch-title-panel">
+                            <h3><%= w.get('Title') %></h3>
+                        </div>
+                        <a class="sketch-link" href="#sketch/<%= w.get('Key') %>">
+                            <div class="sketch-image">
+                                <div class="sketch-number">
+                                    <span><%= i %></span>
+                                </div>
+                                <img src="public/images/projects/<%= w.get('Key') %>-min.png" alt="<%= w.get('Title') %> sketch image"/>
+                            </div>
+                        </a>
+                    </li>
+                <% }) %>
+            </ul>
+        </script>
+
+        <script src="public/js/build.js"></script>
+
+    </body>
+</html>

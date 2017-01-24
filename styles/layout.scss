@@ -1,0 +1,37 @@
+.page-switcher {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    pointer-events: none;
+    z-index: 1;
+
+    transform: scale3d(0, 1, 1);
+}
+
+.app-header {
+    position: absolute;
+    bottom: 0;
+    padding: 0 2rem 2rem 2rem;
+    opacity: 0;
+    cursor: initial;
+    color: #111;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    letter-spacing: 0.03rem;
+    z-index: 999;
+    .logo-container {
+        h1 {
+            margin-bottom: 0.25rem;
+        }
+        p {
+            a {
+                color: #111;
+            }
+        }
+    }
+}

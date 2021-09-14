@@ -72,7 +72,7 @@ const Single = Exoskeleton.View.extend({
         this.iframe.attr('height', this.height);
         this.iframeContainer.append(this.iframe);
         this.iframe.on('load', this.iframeLoaded.bind(this, tween));
-        this.iframe.attr('src', `http://codepen.io/gbnikolov/full/${key}`);
+        this.iframe.attr('src', `https://codepen.io/gbnikolov/full/${key}`);
     },
 
     onresize (width, height) {

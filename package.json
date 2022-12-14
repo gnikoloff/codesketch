@@ -12,7 +12,7 @@
   "dependencies": {
     "compression": "^1.7.4",
     "exoskeleton": "^0.7.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "gsap": "^1.19.0",
     "jbone": "^1.2.0",
     "preload-js": "^0.6.3",
